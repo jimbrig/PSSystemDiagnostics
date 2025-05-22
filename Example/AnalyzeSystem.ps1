@@ -52,7 +52,7 @@ if (-not (Test-Path -Path $OutputFolder)) {
 #     }
 # }
 
-Import-Module .\PSSystemDiagnostics\PSSystemDiagnostics.psm1
+Import-Module .\..\PSSystemDiagnostics\PSSystemDiagnostics.psm1
 
 # Display header
 Write-Host "====================================================" -ForegroundColor Cyan
