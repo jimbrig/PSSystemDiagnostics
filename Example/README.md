@@ -238,12 +238,8 @@ By implementing these recommendations, you should see significant improvements i
 
 ## References
 
-[^6_1]: [ProcessAnalysis.json](./results/ProcessAnalysis.json)
-
-[^6_2]: [DefenderAnalysis.json](./results/DefenderAnalysis.json)
-
-[^6_3]: [ServiceAnalysis.json](./results/ServiceAnalysis.json)
-
-[^6_4]: [StartupAnalysis.json](./results/StartupAnalysis.json)
-
-[^6_5]: [OptimizationRecommendations.json](./results/OptimizationRecommendations.json)
+- [ProcessAnalysis.json](./SystemAnalysis/ProcessAnalysis.json)
+- [DefenderAnalysis.json](./SystemAnalysis/DefenderAnalysis.json)
+- [ServiceAnalysis.json](./SystemAnalysis/ServiceAnalysis.json)
+- [StartupAnalysis.json](./SystemAnalysis/StartupAnalysis.json)
+- [OptimizationRecommendations.json](./SystemAnalysis/OptimizationRecommendations.json)
