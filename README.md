@@ -1,5 +1,7 @@
 # PSSystemDiagnostics
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jimbrig/PSSystemDiagnostics)
+
 > [!NOTE]
 > *See the [Example](./Example/) folder for the resulting diagnostics reports generated!*
 
