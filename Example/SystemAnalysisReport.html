@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows 11 System Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2, h3 { color: #0078d7; }
+        .section { margin-bottom: 30px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .recommendation { background-color: #e6f7ff; padding: 10px; margin-bottom: 10px; border-left: 5px solid #0078d7; }
+        .timestamp { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Windows 11 System Analysis Report</h1>
+    <p class="timestamp">Generated on: 2025-05-21 22:10:36</p>
+
+    <div class="section">
+        <h2>System Information</h2>
+        <p>OS: Microsoft Windows 11 Pro Insider Preview</p>
+        <p>Version: 10.0.27858</p>
+        <p>Memory: 31.8 GB / 31.81 GB (99.97%)</p>
+    </div>
+
+    <div class="section">
+        <h2>Optimization Recommendations</h2>
+        <div class='recommendation'><h3>CPU Usage: High CPU processes detected</h3><p>The following processes are using significant CPU resources: Code, Code, Code, Code, Code, Code, Code, DSAService, dwm, explorer, Microsoft.CmdPal.UI, MsMpEng, OneDrive, Perplexity, Perplexity, Perplexity, Perplexity, PowerToys.PowerLauncher, pwsh, pwsh, pwsh, SearchProtocolHost, svchost, svchost, svchost, svchost, System, Taskmgr, vmmemWSL</p><ul> <li>Investigate these processes to determine if they are necessary</li> <li>Consider updating or reinstalling applications that are consuming excessive resources</li> <li>Check for malware or unwanted background processes</li> </ul></div> <div class='recommendation'><h3>Windows Defender: Windows Defender using high CPU (839.48%)</h3><p>Windows Defender antivirus scanning is consuming excessive CPU resources</p><ul> <li>Schedule scans during off-hours</li> <li>Add exclusions for development folders</li> <li>Ensure you're not running multiple antivirus solutions simultaneously</li> </ul></div> <div class='recommendation'><h3>OneDrive: OneDrive using high CPU (287.45%)</h3><p>OneDrive sync is consuming excessive CPU resources</p><ul> <li>Limit synced folders to essential ones</li> <li>Use Files On-Demand to keep files in the cloud until needed</li> <li>Pause sync during resource-intensive work</li> </ul></div> <div class='recommendation'><h3>PowerToys: PowerToys.PowerLauncher using high CPU (314.97%)</h3><p>PowerToys module is consuming excessive CPU resources</p><ul> <li>Disable unused PowerToys modules</li> <li>Update to the latest version of PowerToys</li> <li>Check for conflicts with other utilities</li> </ul></div> <div class='recommendation'><h3>Memory Usage: High memory processes detected</h3><p>The following processes are using significant memory resources: Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, dwm, Everything64, explorer, explorer, Memory Compression, Microsoft.CmdPal.UI, MsMpEng, Perplexity, PowerToys.PowerLauncher, pwsh, pwsh, pwsh, pwsh, pwsh, rstudio, Taskmgr, Typora, vmmemWSL</p><ul> <li>Close applications that are not currently needed</li> <li>Restart memory-intensive applications periodically</li> <li>Consider increasing system RAM if consistently at high usage</li> </ul></div> <div class='recommendation'><h3>WSL: WSL using significant memory (410.48 MB)</h3><p>Windows Subsystem for Linux is consuming substantial memory resources</p><ul> <li>Create a .wslconfig file to limit WSL resource usage</li> <li>Shut down WSL when not in use</li> <li>Use lightweight Linux distributions</li> </ul></div> <div class='recommendation'><h3>Services: Non-essential services running automatically</h3><p>The following services are set to automatic startup but may not be essential: cplspcon, DSAService, DSAUpdateService, edgeupdate, esifsvc, FoxitReaderUpdateService, GoogleUpdaterInternalService138.0.7156.0, GoogleUpdaterService138.0.7156.0, igccservice, igfxCUIService2.0.0.0, Intel(R) TPM Provisioning Service, jhi_service, Killer Analytics Service, Killer Network Service, Killer Provider Data Helper Service, KillerSmartphoneSleepService, logi_lamparray_service, NahimicService, NVDisplay.ContainerLocalSystem, RtkAudioUniversalService, tzautoupdate, UsoSvc, WMIRegistrationService</p><ul> <li>Set non-essential services to Manual startup</li> <li>Disable services that are never used</li> <li>Review third-party services for necessity</li> </ul></div> <div class='recommendation'><h3>System Performance: General system optimization</h3><p>System-wide performance optimizations</p><ul> <li>Disable visual effects for performance</li> <li>Manage startup programs</li> <li>Schedule regular system maintenance</li> </ul></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+{
+  "Recommendations": [
+    {
+      "Category": "CPU Usage",
+      "Issue": "High CPU processes detected",
+      "Details": "The following processes are using significant CPU resources: Code, Code, Code, Code, Code, Code, Code, DSAService, dwm, explorer, Microsoft.CmdPal.UI, MsMpEng, OneDrive, Perplexity, Perplexity, Perplexity, Perplexity, PowerToys.PowerLauncher, pwsh, pwsh, pwsh, SearchProtocolHost, svchost, svchost, svchost, svchost, System, Taskmgr, vmmemWSL",
+      "Recommendations": [
+        "Investigate these processes to determine if they are necessary",
+        "Consider updating or reinstalling applications that are consuming excessive resources",
+        "Check for malware or unwanted background processes"
+      ],
+      "Commands": [
+        "Get-Process | Sort-Object CPU -Descending | Select-Object -First 10 ProcessName, CPU, ID"
+      ]
+    },
+    {
+      "Category": "Windows Defender",
+      "Issue": "Windows Defender using high CPU (839.48%)",
+      "Details": "Windows Defender antivirus scanning is consuming excessive CPU resources",
+      "Recommendations": [
+        "Schedule scans during off-hours",
+        "Add exclusions for development folders",
+        "Ensure you're not running multiple antivirus solutions simultaneously"
+      ],
+      "Commands": [
+        "# Set scan schedule to run during off-hours (e.g., 2 AM)",
+        "Set-MpPreference -ScanScheduleTime 02:00:00",
+        "",
+        "# Add exclusions for development folders if needed",
+        "# Add-MpPreference -ExclusionPath 'C:\\DevProjects'"
+      ]
+    },
+    {
+      "Category": "OneDrive",
+      "Issue": "OneDrive using high CPU (287.45%)",
+      "Details": "OneDrive sync is consuming excessive CPU resources",
+      "Recommendations": [
+        "Limit synced folders to essential ones",
+        "Use Files On-Demand to keep files in the cloud until needed",
+        "Pause sync during resource-intensive work"
+      ],
+      "Commands": [
+        "# No direct PowerShell commands for OneDrive optimization",
+        "# Use OneDrive settings interface to configure sync options"
+      ]
+    },
+    {
+      "Category": "PowerToys",
+      "Issue": "PowerToys.PowerLauncher using high CPU (314.97%)",
+      "Details": "PowerToys module is consuming excessive CPU resources",
+      "Recommendations": [
+        "Disable unused PowerToys modules",
+        "Update to the latest version of PowerToys",
+        "Check for conflicts with other utilities"
+      ],
+      "Commands": [
+        "# No direct PowerShell commands for PowerToys optimization",
+        "# Use PowerToys settings interface to disable unused modules"
+      ]
+    },
+    {
+      "Category": "Memory Usage",
+      "Issue": "High memory processes detected",
+      "Details": "The following processes are using significant memory resources: Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, Code, dwm, Everything64, explorer, explorer, Memory Compression, Microsoft.CmdPal.UI, MsMpEng, Perplexity, PowerToys.PowerLauncher, pwsh, pwsh, pwsh, pwsh, pwsh, rstudio, Taskmgr, Typora, vmmemWSL",
+      "Recommendations": [
+        "Close applications that are not currently needed",
+        "Restart memory-intensive applications periodically",
+        "Consider increasing system RAM if consistently at high usage"
+      ],
+      "Commands": [
+        "Get-Process | Sort-Object WorkingSet -Descending | Select-Object -First 10 ProcessName, @{Name='Memory(MB)';Expression={[math]::Round(($_.WorkingSet / 1MB), 2)}}, ID"
+      ]
+    },
+    {
+      "Category": "WSL",
+      "Issue": "WSL using significant memory (410.48 MB)",
+      "Details": "Windows Subsystem for Linux is consuming substantial memory resources",
+      "Recommendations": [
+        "Create a .wslconfig file to limit WSL resource usage",
+        "Shut down WSL when not in use",
+        "Use lightweight Linux distributions"
+      ],
+      "Commands": [
+        "# Create or modify .wslconfig in your user profile",
+        "# Example content for C:\\Users\\jimmy\\.wslconfig:",
+        "# [wsl2]",
+        "# memory=4GB",
+        "# processors=2",
+        "# swap=2GB",
+        "",
+        "# Shut down WSL when not in use",
+        "wsl --shutdown"
+      ]
+    },
+    {
+      "Category": "Services",
+      "Issue": "Non-essential services running automatically",
+      "Details": "The following services are set to automatic startup but may not be essential: cplspcon, DSAService, DSAUpdateService, edgeupdate, esifsvc, FoxitReaderUpdateService, GoogleUpdaterInternalService138.0.7156.0, GoogleUpdaterService138.0.7156.0, igccservice, igfxCUIService2.0.0.0, Intel(R) TPM Provisioning Service, jhi_service, Killer Analytics Service, Killer Network Service, Killer Provider Data Helper Service, KillerSmartphoneSleepService, logi_lamparray_service, NahimicService, NVDisplay.ContainerLocalSystem, RtkAudioUniversalService, tzautoupdate, UsoSvc, WMIRegistrationService",
+      "Recommendations": [
+        "Set non-essential services to Manual startup",
+        "Disable services that are never used",
+        "Review third-party services for necessity"
+      ],
+      "Commands": [
+        "Set-Service -Name 'cplspcon' -StartupType Manual # Intel(R) Content Protection HDCP Service",
+        "Set-Service -Name 'DSAService' -StartupType Manual # Intel(R) Driver & Support Assistant",
+        "Set-Service -Name 'DSAUpdateService' -StartupType Manual # Intel(R) Driver & Support Assistant Updater",
+        "Set-Service -Name 'edgeupdate' -StartupType Manual # Microsoft Edge Update Service (edgeupdate)",
+        "Set-Service -Name 'esifsvc' -StartupType Manual # Intel(R) Dynamic Tuning service",
+        "Set-Service -Name 'FoxitReaderUpdateService' -StartupType Manual # Foxit PDF Reader Update Service",
+        "Set-Service -Name 'GoogleUpdaterInternalService138.0.7156.0' -StartupType Manual # Google Updater Internal Service (GoogleUpdaterInternalService138.0.7156.0)",
+        "Set-Service -Name 'GoogleUpdaterService138.0.7156.0' -StartupType Manual # Google Updater Service (GoogleUpdaterService138.0.7156.0)",
+        "Set-Service -Name 'igccservice' -StartupType Manual # Intel(R) Graphics Command Center Service",
+        "Set-Service -Name 'igfxCUIService2.0.0.0' -StartupType Manual # Intel(R) HD Graphics Control Panel Service",
+        "Set-Service -Name 'Intel(R) TPM Provisioning Service' -StartupType Manual # Intel(R) TPM Provisioning Service",
+        "Set-Service -Name 'jhi_service' -StartupType Manual # Intel(R) Dynamic Application Loader Host Interface Service",
+        "Set-Service -Name 'Killer Analytics Service' -StartupType Manual # Killer Analytics Service",
+        "Set-Service -Name 'Killer Network Service' -StartupType Manual # Killer Network Service",
+        "Set-Service -Name 'Killer Provider Data Helper Service' -StartupType Manual # Killer Provider Data Helper Service",
+        "Set-Service -Name 'KillerSmartphoneSleepService' -StartupType Manual # KillerSmartphoneSleepService",
+        "Set-Service -Name 'logi_lamparray_service' -StartupType Manual # Logitech LampArray Service",
+        "Set-Service -Name 'NahimicService' -StartupType Manual # Nahimic service",
+        "Set-Service -Name 'NVDisplay.ContainerLocalSystem' -StartupType Manual # NVIDIA Display Container LS",
+        "Set-Service -Name 'RtkAudioUniversalService' -StartupType Manual # Realtek Audio Universal Service",
+        "Set-Service -Name 'tzautoupdate' -StartupType Manual # Auto Time Zone Updater",
+        "Set-Service -Name 'UsoSvc' -StartupType Manual # Update Orchestrator Service",
+        "Set-Service -Name 'WMIRegistrationService' -StartupType Manual # Intel(R) Management Engine WMI Provider Registration"
+      ]
+    },
+    {
+      "Category": "System Performance",
+      "Issue": "General system optimization",
+      "Details": "System-wide performance optimizations",
+      "Recommendations": [
+        "Disable visual effects for performance",
+        "Manage startup programs",
+        "Schedule regular system maintenance"
+      ],
+      "Commands": [
+        "# Set visual effects to best performance",
+        "Set-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects' -Name 'VisualFXSetting' -Value 2",
+        "",
+        "# View startup programs",
+        "Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location, User"
+      ]
+    }
+  ],
+  "Timestamp": "2025-05-21 22:10:36"
+}

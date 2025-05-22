@@ -1,0 +1,4075 @@
+{
+  "DefenderRunning": true,
+  "Process": {
+    "Id": 7396,
+    "ProcessName": "MsMpEng",
+    "CPU": 839.75,
+    "Memory(MB)": 440.82,
+    "StartTime": "2025-05-21T21:22:03.0815719-04:00"
+  },
+  "Status": {
+    "CimClass": {
+      "CimSuperClassName": "BaseStatus",
+      "CimSuperClass": {
+        "CimSuperClassName": null,
+        "CimSuperClass": null,
+        "CimClassProperties": [],
+        "CimClassQualifiers": [
+          {
+            "Name": "locale",
+            "Value": 1033,
+            "CimType": 7,
+            "Flags": "EnableOverride, Restricted"
+          }
+        ],
+        "CimClassMethods": [],
+        "CimSystemProperties": {
+          "Namespace": "ROOT/Microsoft/Windows/Defender",
+          "ServerName": "DESKTOP-MSI",
+          "ClassName": "BaseStatus",
+          "Path": null
+        }
+      },
+      "CimClassProperties": [
+        {
+          "Name": "AMEngineVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AMProductVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AMRunningMode",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AMServiceEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AMServiceVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntispywareEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntispywareSignatureAge",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntispywareSignatureLastUpdated",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntispywareSignatureVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntivirusEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntivirusSignatureAge",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntivirusSignatureLastUpdated",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AntivirusSignatureVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BehaviorMonitorEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ComputerID",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, Key, ReadOnly",
+          "Qualifiers": [
+            "key = True",
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ComputerState",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "BitMap = ...",
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DefenderSignaturesOutOfDate",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DeviceControlDefaultEnforcement",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DeviceControlPoliciesLastUpdated",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DeviceControlState",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "FullScanAge",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "FullScanEndTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "FullScanOverdue",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "FullScanRequired",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "FullScanSignatureVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "FullScanStartTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "InitializationProgress",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "IoavProtectionEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "IsTamperProtected",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "IsVirtualMachine",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "LastFullScanSource",
+          "Value": 0,
+          "CimType": 2,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True",
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "LastQuickScanSource",
+          "Value": 0,
+          "CimType": 2,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True",
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "NISEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "NISEngineVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "NISSignatureAge",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "NISSignatureLastUpdated",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "NISSignatureVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "OnAccessProtectionEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ProductStatus",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "BitMap = ...",
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuickScanAge",
+          "Value": 0,
+          "CimType": 6,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuickScanEndTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuickScanOverdue",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuickScanSignatureVersion",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuickScanStartTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RealTimeProtectionEnabled",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RealTimeScanDirection",
+          "Value": 0,
+          "CimType": 2,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True",
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RebootRequired",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, ReadOnly, NullValue",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SmartAppControlExpiration",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SmartAppControlState",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TamperProtectionSource",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TDTCapable",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TDTMode",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TDTSiloType",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TDTStatus",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TDTTelemetry",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingDailyMaxQuota",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingDailyQuotaLeft",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingEndTime",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingExpirationLeft",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingMode",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingModeSource",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingQuotaResetTime",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TroubleShootingStartTime",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, ReadOnly",
+          "Qualifiers": [
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        }
+      ],
+      "CimClassQualifiers": [
+        {
+          "Name": "dynamic",
+          "Value": true,
+          "CimType": 1,
+          "Flags": "EnableOverride, ToSubclass"
+        },
+        {
+          "Name": "locale",
+          "Value": 1033,
+          "CimType": 7,
+          "Flags": "EnableOverride, Restricted"
+        },
+        {
+          "Name": "provider",
+          "Value": "ProtectionManagement",
+          "CimType": 14,
+          "Flags": "EnableOverride, ToSubclass"
+        }
+      ],
+      "CimClassMethods": [],
+      "CimSystemProperties": {
+        "Namespace": "ROOT/Microsoft/Windows/Defender",
+        "ServerName": "DESKTOP-MSI",
+        "ClassName": "MSFT_MpComputerStatus",
+        "Path": null
+      }
+    },
+    "CimInstanceProperties": [
+      {
+        "Name": "AMEngineVersion",
+        "Value": "1.1.25050.2",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AMProductVersion",
+        "Value": "4.18.25040.2",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AMRunningMode",
+        "Value": "Normal",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AMServiceEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AMServiceVersion",
+        "Value": "4.18.25040.2",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntispywareEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntispywareSignatureAge",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntispywareSignatureLastUpdated",
+        "Value": "2025-05-21T15:53:52-04:00",
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntispywareSignatureVersion",
+        "Value": "1.429.119.0",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntivirusEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntivirusSignatureAge",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntivirusSignatureLastUpdated",
+        "Value": "2025-05-21T15:53:51-04:00",
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AntivirusSignatureVersion",
+        "Value": "1.429.119.0",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BehaviorMonitorEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ComputerID",
+        "Value": "A10B32CB-0370-4FB0-B5F6-6562C1488A2C",
+        "CimType": 14,
+        "Flags": "Property, Key, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ComputerState",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DefenderSignaturesOutOfDate",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DeviceControlDefaultEnforcement",
+        "Value": null,
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DeviceControlPoliciesLastUpdated",
+        "Value": "2023-03-02T18:22:06.559-05:00",
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DeviceControlState",
+        "Value": "Disabled",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "FullScanAge",
+        "Value": 4294967295,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "FullScanEndTime",
+        "Value": null,
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "FullScanOverdue",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "FullScanRequired",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "FullScanSignatureVersion",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "FullScanStartTime",
+        "Value": null,
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "InitializationProgress",
+        "Value": "ServiceStartedSuccessfully",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "IoavProtectionEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "IsTamperProtected",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "IsVirtualMachine",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "LastFullScanSource",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "LastQuickScanSource",
+        "Value": 2,
+        "CimType": 2,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "NISEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "NISEngineVersion",
+        "Value": "1.1.25050.2",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "NISSignatureAge",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "NISSignatureLastUpdated",
+        "Value": "2025-05-21T15:53:51-04:00",
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "NISSignatureVersion",
+        "Value": "1.429.119.0",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "OnAccessProtectionEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ProductStatus",
+        "Value": 524288,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuickScanAge",
+        "Value": 5,
+        "CimType": 6,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuickScanEndTime",
+        "Value": "2025-05-16T15:11:39.874-04:00",
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuickScanOverdue",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuickScanSignatureVersion",
+        "Value": "1.429.32.0",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuickScanStartTime",
+        "Value": "2025-05-16T15:09:42.683-04:00",
+        "CimType": 13,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RealTimeProtectionEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RealTimeScanDirection",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RebootRequired",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SmartAppControlExpiration",
+        "Value": null,
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SmartAppControlState",
+        "Value": "Off",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TamperProtectionSource",
+        "Value": "UI",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TDTCapable",
+        "Value": "Supported",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TDTMode",
+        "Value": "rsw",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TDTSiloType",
+        "Value": "E",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TDTStatus",
+        "Value": "Enabled",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TDTTelemetry",
+        "Value": "Disabled",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingDailyMaxQuota",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingDailyQuotaLeft",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingEndTime",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingExpirationLeft",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingMode",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingModeSource",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingQuotaResetTime",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TroubleShootingStartTime",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, ReadOnly, NotModified",
+        "IsValueModified": false
+      }
+    ],
+    "CimSystemProperties": {
+      "Namespace": "ROOT/Microsoft/Windows/Defender",
+      "ServerName": "DESKTOP-MSI",
+      "ClassName": "MSFT_MpComputerStatus",
+      "Path": null
+    },
+    "PSComputerName": "localhost",
+    "RunspaceId": "04485c7f-c3cd-43ee-a137-df32861e8d9e",
+    "PSShowComputerName": false,
+    "AMEngineVersion": "1.1.25050.2",
+    "AMProductVersion": "4.18.25040.2",
+    "AMRunningMode": "Normal",
+    "AMServiceEnabled": true,
+    "AMServiceVersion": "4.18.25040.2",
+    "AntispywareEnabled": true,
+    "AntispywareSignatureAge": 0,
+    "AntispywareSignatureLastUpdated": "2025-05-21T15:53:52-04:00",
+    "AntispywareSignatureVersion": "1.429.119.0",
+    "AntivirusEnabled": true,
+    "AntivirusSignatureAge": 0,
+    "AntivirusSignatureLastUpdated": "2025-05-21T15:53:51-04:00",
+    "AntivirusSignatureVersion": "1.429.119.0",
+    "BehaviorMonitorEnabled": true,
+    "ComputerID": "A10B32CB-0370-4FB0-B5F6-6562C1488A2C",
+    "ComputerState": 0,
+    "DefenderSignaturesOutOfDate": false,
+    "DeviceControlDefaultEnforcement": null,
+    "DeviceControlPoliciesLastUpdated": "2023-03-02T18:22:06.559-05:00",
+    "DeviceControlState": "Disabled",
+    "FullScanAge": 4294967295,
+    "FullScanEndTime": null,
+    "FullScanOverdue": false,
+    "FullScanRequired": false,
+    "FullScanSignatureVersion": "",
+    "FullScanStartTime": null,
+    "InitializationProgress": "ServiceStartedSuccessfully",
+    "IoavProtectionEnabled": true,
+    "IsTamperProtected": true,
+    "IsVirtualMachine": false,
+    "LastFullScanSource": 0,
+    "LastQuickScanSource": 2,
+    "NISEnabled": true,
+    "NISEngineVersion": "1.1.25050.2",
+    "NISSignatureAge": 0,
+    "NISSignatureLastUpdated": "2025-05-21T15:53:51-04:00",
+    "NISSignatureVersion": "1.429.119.0",
+    "OnAccessProtectionEnabled": true,
+    "ProductStatus": 524288,
+    "QuickScanAge": 5,
+    "QuickScanEndTime": "2025-05-16T15:11:39.874-04:00",
+    "QuickScanOverdue": false,
+    "QuickScanSignatureVersion": "1.429.32.0",
+    "QuickScanStartTime": "2025-05-16T15:09:42.683-04:00",
+    "RealTimeProtectionEnabled": true,
+    "RealTimeScanDirection": 0,
+    "RebootRequired": false,
+    "SmartAppControlExpiration": null,
+    "SmartAppControlState": "Off",
+    "TamperProtectionSource": "UI",
+    "TDTCapable": "Supported",
+    "TDTMode": "rsw",
+    "TDTSiloType": "E",
+    "TDTStatus": "Enabled",
+    "TDTTelemetry": "Disabled",
+    "TroubleShootingDailyMaxQuota": "",
+    "TroubleShootingDailyQuotaLeft": "",
+    "TroubleShootingEndTime": "",
+    "TroubleShootingExpirationLeft": "",
+    "TroubleShootingMode": "",
+    "TroubleShootingModeSource": "",
+    "TroubleShootingQuotaResetTime": "",
+    "TroubleShootingStartTime": ""
+  },
+  "Preferences": {
+    "CimClass": {
+      "CimSuperClassName": null,
+      "CimSuperClass": null,
+      "CimClassProperties": [
+        {
+          "Name": "AllowDatagramProcessingOnWinServer",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AllowNetworkProtectionDownLevel",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AllowNetworkProtectionOnWinServer",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AllowSwitchToAsyncInspection",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ApplyDisableNetworkScanningToIOAV",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AttackSurfaceReductionOnlyExclusions",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AttackSurfaceReductionRules_Actions",
+          "Value": null,
+          "CimType": 18,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AttackSurfaceReductionRules_Ids",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AttackSurfaceReductionRules_RuleSpecificExclusions",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "AttackSurfaceReductionRules_RuleSpecificExclusions_Id",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BruteForceProtectionAggressiveness",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BruteForceProtectionConfiguredState",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BruteForceProtectionExclusions",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BruteForceProtectionLocalNetworkBlocking",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BruteForceProtectionMaxBlockTime",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "BruteForceProtectionSkipLearningPeriod",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "CheckForSignaturesBeforeRunningScan",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "CloudBlockLevel",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "CloudExtendedTimeout",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ComputerID",
+          "Value": "",
+          "CimType": 14,
+          "Flags": "Property, Key, ReadOnly",
+          "Qualifiers": [
+            "key = True",
+            "read = True"
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ControlledFolderAccessAllowedApplications",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ControlledFolderAccessDefaultProtectedFolders",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ControlledFolderAccessProtectedFolders",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DefinitionUpdatesChannel",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableArchiveScanning",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableAutoExclusions",
+          "Value": false,
+          "CimType": 1,
+          "Flags": "Property",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableBehaviorMonitoring",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableBlockAtFirstSeen",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableCacheMaintenance",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableCatchupFullScan",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableCatchupQuickScan",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableCoreServiceECSIntegration",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableCoreServiceTelemetry",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableCpuThrottleOnIdleScans",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableDatagramProcessing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableDnsOverTcpParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableDnsParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableEmailScanning",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableFtpParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableGradualRelease",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableHttpParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableInboundConnectionFiltering",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableIOAVProtection",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableNetworkProtectionPerfTelemetry",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisablePrivacyMode",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableQuicParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableRdpParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableRealtimeMonitoring",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableRemovableDriveScanning",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableRestorePoint",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableScanningMappedNetworkDrivesForFullScan",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableScanningNetworkFiles",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableScriptScanning",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableSmtpParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableSshParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableTamperProtection",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "DisableTlsParsing",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableControlledFolderAccess",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableConvertWarnToBlock",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableDnsSinkhole",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableFileHashComputation",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableFullScanOnBatteryPower",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableLowCpuPriority",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableNetworkProtection",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableUdpReceiveOffload",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EnableUdpSegmentationOffload",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "EngineUpdatesChannel",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ExclusionExtension",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ExclusionIpAddress",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ExclusionPath",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ExclusionProcess",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ForceUseProxyOnly",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "HideExclusionsFromLocalUsers",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "HighThreatDefaultAction",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "IntelTDTEnabled",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "LowThreatDefaultAction",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "MAPSReporting",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "MeteredConnectionUpdates",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ModerateThreatDefaultAction",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "NetworkProtectionReputationMode",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "OobeEnableRtpAndSigUpdate",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "PerformanceModeStatus",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "PlatformUpdatesChannel",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ProxyBypass",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ProxyPacUrl",
+          "Value": null,
+          "CimType": 14,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ProxyServer",
+          "Value": null,
+          "CimType": 14,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "PUAProtection",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuarantinePurgeItemsAfterDelay",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "QuickScanIncludeExclusions",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RandomizeScheduleTaskTimes",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RealTimeScanDirection",
+          "Value": 0,
+          "CimType": 2,
+          "Flags": "Property",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemediationScheduleDay",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemediationScheduleTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemoteEncryptionProtectionAggressiveness",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemoteEncryptionProtectionConfiguredState",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemoteEncryptionProtectionExclusions",
+          "Value": null,
+          "CimType": 30,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemoteEncryptionProtectionMaxBlockTime",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "RemoveScanningThreadPoolCap",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ReportDynamicSignatureDroppedEvent",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ReportingAdditionalActionTimeOut",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ReportingCriticalFailureTimeOut",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ReportingNonCriticalTimeOut",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanAvgCPULoadFactor",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanOnlyIfIdleEnabled",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanParameters",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanPurgeItemsAfterDelay",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanScheduleDay",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanScheduleOffset",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanScheduleQuickScanTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ScanScheduleTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SchedulerRandomizationTime",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ServiceHealthReportInterval",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SevereThreatDefaultAction",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SharedSignaturesPath",
+          "Value": null,
+          "CimType": 14,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SharedSignaturesPathUpdateAtScheduledTimeOnly",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureAuGracePeriod",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureBlobFileSharesSources",
+          "Value": null,
+          "CimType": 14,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureBlobUpdateInterval",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureDefinitionUpdateFileSharesSources",
+          "Value": null,
+          "CimType": 14,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureDisableUpdateOnStartupWithoutEngine",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureFallbackOrder",
+          "Value": null,
+          "CimType": 14,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureFirstAuGracePeriod",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureScheduleDay",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureScheduleTime",
+          "Value": null,
+          "CimType": 13,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureUpdateCatchupInterval",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SignatureUpdateInterval",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "SubmitSamplesConsent",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ThreatIDDefaultAction_Actions",
+          "Value": null,
+          "CimType": 18,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ThreatIDDefaultAction_Ids",
+          "Value": null,
+          "CimType": 25,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "ThrottleForScheduledScanOnly",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "TrustLabelProtectionStatus",
+          "Value": null,
+          "CimType": 6,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "UILockdown",
+          "Value": null,
+          "CimType": 1,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [],
+          "ReferenceClassName": null
+        },
+        {
+          "Name": "UnknownThreatDefaultAction",
+          "Value": null,
+          "CimType": 2,
+          "Flags": "Property, NullValue",
+          "Qualifiers": [
+            "ValueMap = ..."
+          ],
+          "ReferenceClassName": null
+        }
+      ],
+      "CimClassQualifiers": [
+        {
+          "Name": "dynamic",
+          "Value": true,
+          "CimType": 1,
+          "Flags": "EnableOverride, ToSubclass"
+        },
+        {
+          "Name": "locale",
+          "Value": 1033,
+          "CimType": 7,
+          "Flags": "EnableOverride, Restricted"
+        },
+        {
+          "Name": "provider",
+          "Value": "ProtectionManagement",
+          "CimType": 14,
+          "Flags": "EnableOverride, ToSubclass"
+        }
+      ],
+      "CimClassMethods": [
+        {
+          "Name": "Set",
+          "ReturnType": 6,
+          "Parameters": [
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+          ],
+          "Qualifiers": [
+            "implemented = True",
+            "static = True"
+          ]
+        },
+        {
+          "Name": "Remove",
+          "ReturnType": 6,
+          "Parameters": [
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+          ],
+          "Qualifiers": [
+            "implemented = True",
+            "static = True"
+          ]
+        },
+        {
+          "Name": "Add",
+          "ReturnType": 6,
+          "Parameters": [
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+            "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+          ],
+          "Qualifiers": [
+            "implemented = True",
+            "static = True"
+          ]
+        }
+      ],
+      "CimSystemProperties": {
+        "Namespace": "root/Microsoft/Windows/Defender",
+        "ServerName": "DESKTOP-MSI",
+        "ClassName": "MSFT_MpPreference",
+        "Path": null
+      }
+    },
+    "CimInstanceProperties": [
+      {
+        "Name": "AllowDatagramProcessingOnWinServer",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AllowNetworkProtectionDownLevel",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AllowNetworkProtectionOnWinServer",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AllowSwitchToAsyncInspection",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ApplyDisableNetworkScanningToIOAV",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AttackSurfaceReductionOnlyExclusions",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AttackSurfaceReductionRules_Actions",
+        "Value": null,
+        "CimType": 18,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AttackSurfaceReductionRules_Ids",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AttackSurfaceReductionRules_RuleSpecificExclusions",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "AttackSurfaceReductionRules_RuleSpecificExclusions_Id",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BruteForceProtectionAggressiveness",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BruteForceProtectionConfiguredState",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BruteForceProtectionExclusions",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BruteForceProtectionLocalNetworkBlocking",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BruteForceProtectionMaxBlockTime",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "BruteForceProtectionSkipLearningPeriod",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "CheckForSignaturesBeforeRunningScan",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "CloudBlockLevel",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "CloudExtendedTimeout",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ComputerID",
+        "Value": "A10B32CB-0370-4FB0-B5F6-6562C1488A2C",
+        "CimType": 14,
+        "Flags": "Property, Key, ReadOnly, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ControlledFolderAccessAllowedApplications",
+        "Value": [
+          "C:\\Program Files (x86)\\EaseUS\\EaseUS Todo PCTrans\\bin\\PCTrans.exe",
+          "C:\\Program Files (x86)\\EaseUS\\EaseUS Todo PCTrans\\fileshare\\DataChannelUI.exe",
+          "C:\\Program Files (x86)\\Microsoft\\Edge Dev\\Application\\msedge.exe",
+          "C:\\Program Files\\EaseUS\\EaseUS AppMove\\bin\\AppMove.exe",
+          "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe",
+          "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\Feedback.exe",
+          "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\RescueCenter.exe",
+          "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\ServicesOptimizer.exe",
+          "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\UpdateInstaller.exe",
+          "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\WebUpdate.exe",
+          "CodeCoverage.exe",
+          "conhost.exe",
+          "datacollector.exe",
+          "devenv.exe",
+          "dotnet.exe",
+          "iisexpress.exe",
+          "IntelliTrace.exe",
+          "Lepton.exe",
+          "Microsoft.VisualStudio.Web.Host.exe",
+          "msbuild.exe",
+          "node.exe",
+          "node.js",
+          "perfwatson2.exe",
+          "ScriptedSandbox64.exe",
+          "ServiceHub.DataWarehouseHost.exe",
+          "ServiceHub.Host.CLR.x64.exe",
+          "ServiceHub.Host.CLR.x86.exe",
+          "ServiceHub.Host.Node.x64.exe",
+          "ServiceHub.Host.Node.x86.exe",
+          "ServiceHub.IdentityHost.exe",
+          "ServiceHub.RoslynCodeAnalysisService.exe",
+          "ServiceHub.SettingsHost.exe",
+          "ServiceHub.VSDetouredHost.exe",
+          "testhost.exe",
+          "vbcscompiler.exe",
+          "vstest.console.exe"
+        ],
+        "CimType": 30,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ControlledFolderAccessDefaultProtectedFolders",
+        "Value": [
+          "N/A: Controlled Folder Access is disabled"
+        ],
+        "CimType": 30,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ControlledFolderAccessProtectedFolders",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DefinitionUpdatesChannel",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableArchiveScanning",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableAutoExclusions",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableBehaviorMonitoring",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableBlockAtFirstSeen",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableCacheMaintenance",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableCatchupFullScan",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableCatchupQuickScan",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableCoreServiceECSIntegration",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableCoreServiceTelemetry",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableCpuThrottleOnIdleScans",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableDatagramProcessing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableDnsOverTcpParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableDnsParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableEmailScanning",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableFtpParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableGradualRelease",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableHttpParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableInboundConnectionFiltering",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableIOAVProtection",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableNetworkProtectionPerfTelemetry",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisablePrivacyMode",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableQuicParsing",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableRdpParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableRealtimeMonitoring",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableRemovableDriveScanning",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableRestorePoint",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableScanningMappedNetworkDrivesForFullScan",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableScanningNetworkFiles",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableScriptScanning",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableSmtpParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableSshParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableTamperProtection",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "DisableTlsParsing",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableControlledFolderAccess",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableConvertWarnToBlock",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableDnsSinkhole",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableFileHashComputation",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableFullScanOnBatteryPower",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableLowCpuPriority",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableNetworkProtection",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableUdpReceiveOffload",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EnableUdpSegmentationOffload",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "EngineUpdatesChannel",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ExclusionExtension",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ExclusionIpAddress",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ExclusionPath",
+        "Value": [
+          "C:\\Program Files (x86)\\Microsoft SDKs",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio",
+          "C:\\Program Files (x86)\\MSBuild",
+          "C:\\Program Files\\Lepton\\",
+          "C:\\Program Files\\PowerShell",
+          "C:\\Program Files\\PowerShell*",
+          "C:\\Program Files\\PowerShell\\7",
+          "C:\\Program Files\\PowerShell\\7-preview",
+          "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer",
+          "C:\\Program Files\\ZKTool\\UninstallZKTool.exe",
+          "C:\\Program Files\\ZKTool\\ZKTool.exe",
+          "C:\\ProgramData\\Microsoft\\VisualStudio\\Packages",
+          "C:\\Users\\jimmy\\AppData\\Local\\Microsoft\\VisualStudio",
+          "C:\\Users\\jimmy\\AppData\\Local\\Programs\\oh-my-posh\\bin\\oh-my-posh.exe",
+          "C:\\Users\\jimmy\\Dev",
+          "C:\\Windows\\assembly",
+          "C:\\Windows\\Microsoft.NET",
+          "C:\\Windows\\Microsoft.NET\\Framework",
+          "G:",
+          "J:"
+        ],
+        "CimType": 30,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ExclusionProcess",
+        "Value": [
+          "CodeCoverage.exe",
+          "conhost.exe",
+          "datacollector.exe",
+          "devenv.exe",
+          "dotnet.exe",
+          "iisexpress.exe",
+          "IntelliTrace.exe",
+          "Lepton.exe",
+          "Microsoft.VisualStudio.Web.Host.exe",
+          "msbuild.exe",
+          "node.exe",
+          "node.js",
+          "perfwatson2.exe",
+          "ScriptedSandbox64.exe",
+          "ServiceHub.DataWarehouseHost.exe",
+          "ServiceHub.Host.CLR.x64.exe",
+          "ServiceHub.Host.CLR.x86.exe",
+          "ServiceHub.Host.Node.x64.exe",
+          "ServiceHub.Host.Node.x86.exe",
+          "ServiceHub.IdentityHost.exe",
+          "ServiceHub.RoslynCodeAnalysisService.exe",
+          "ServiceHub.SettingsHost.exe",
+          "ServiceHub.VSDetouredHost.exe",
+          "testhost.exe",
+          "vbcscompiler.exe",
+          "vstest.console.exe"
+        ],
+        "CimType": 30,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ForceUseProxyOnly",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "HideExclusionsFromLocalUsers",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "HighThreatDefaultAction",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "IntelTDTEnabled",
+        "Value": null,
+        "CimType": 1,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "LowThreatDefaultAction",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "MAPSReporting",
+        "Value": 2,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "MeteredConnectionUpdates",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ModerateThreatDefaultAction",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "NetworkProtectionReputationMode",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "OobeEnableRtpAndSigUpdate",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "PerformanceModeStatus",
+        "Value": 1,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "PlatformUpdatesChannel",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ProxyBypass",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ProxyPacUrl",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ProxyServer",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "PUAProtection",
+        "Value": 1,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuarantinePurgeItemsAfterDelay",
+        "Value": 90,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "QuickScanIncludeExclusions",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RandomizeScheduleTaskTimes",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RealTimeScanDirection",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemediationScheduleDay",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemediationScheduleTime",
+        "Value": {
+          "Ticks": 72000000000,
+          "Days": 0,
+          "Hours": 2,
+          "Milliseconds": 0,
+          "Microseconds": 0,
+          "Nanoseconds": 0,
+          "Minutes": 0,
+          "Seconds": 0,
+          "TotalDays": 0.08333333333333333,
+          "TotalHours": 2.0,
+          "TotalMilliseconds": 7200000.0,
+          "TotalMicroseconds": 7200000000.0,
+          "TotalNanoseconds": 7200000000000.0,
+          "TotalMinutes": 120.0,
+          "TotalSeconds": 7200.0
+        },
+        "CimType": 13,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemoteEncryptionProtectionAggressiveness",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemoteEncryptionProtectionConfiguredState",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemoteEncryptionProtectionExclusions",
+        "Value": null,
+        "CimType": 30,
+        "Flags": "Property, NotModified, NullValue",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemoteEncryptionProtectionMaxBlockTime",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "RemoveScanningThreadPoolCap",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ReportDynamicSignatureDroppedEvent",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ReportingAdditionalActionTimeOut",
+        "Value": 10080,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ReportingCriticalFailureTimeOut",
+        "Value": 10080,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ReportingNonCriticalTimeOut",
+        "Value": 1440,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanAvgCPULoadFactor",
+        "Value": 50,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanOnlyIfIdleEnabled",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanParameters",
+        "Value": 1,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanPurgeItemsAfterDelay",
+        "Value": 15,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanScheduleDay",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanScheduleOffset",
+        "Value": 120,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanScheduleQuickScanTime",
+        "Value": {
+          "Ticks": 0,
+          "Days": 0,
+          "Hours": 0,
+          "Milliseconds": 0,
+          "Microseconds": 0,
+          "Nanoseconds": 0,
+          "Minutes": 0,
+          "Seconds": 0,
+          "TotalDays": 0.0,
+          "TotalHours": 0.0,
+          "TotalMilliseconds": 0.0,
+          "TotalMicroseconds": 0.0,
+          "TotalNanoseconds": 0.0,
+          "TotalMinutes": 0.0,
+          "TotalSeconds": 0.0
+        },
+        "CimType": 13,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ScanScheduleTime",
+        "Value": {
+          "Ticks": 72000000000,
+          "Days": 0,
+          "Hours": 2,
+          "Milliseconds": 0,
+          "Microseconds": 0,
+          "Nanoseconds": 0,
+          "Minutes": 0,
+          "Seconds": 0,
+          "TotalDays": 0.08333333333333333,
+          "TotalHours": 2.0,
+          "TotalMilliseconds": 7200000.0,
+          "TotalMicroseconds": 7200000000.0,
+          "TotalNanoseconds": 7200000000000.0,
+          "TotalMinutes": 120.0,
+          "TotalSeconds": 7200.0
+        },
+        "CimType": 13,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SchedulerRandomizationTime",
+        "Value": 4,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ServiceHealthReportInterval",
+        "Value": 60,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SevereThreatDefaultAction",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SharedSignaturesPath",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SharedSignaturesPathUpdateAtScheduledTimeOnly",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureAuGracePeriod",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureBlobFileSharesSources",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureBlobUpdateInterval",
+        "Value": 60,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureDefinitionUpdateFileSharesSources",
+        "Value": "",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureDisableUpdateOnStartupWithoutEngine",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureFallbackOrder",
+        "Value": "MicrosoftUpdateServer|MMPC",
+        "CimType": 14,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureFirstAuGracePeriod",
+        "Value": 120,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureScheduleDay",
+        "Value": 8,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureScheduleTime",
+        "Value": {
+          "Ticks": 63000000000,
+          "Days": 0,
+          "Hours": 1,
+          "Milliseconds": 0,
+          "Microseconds": 0,
+          "Nanoseconds": 0,
+          "Minutes": 45,
+          "Seconds": 0,
+          "TotalDays": 0.07291666666666667,
+          "TotalHours": 1.75,
+          "TotalMilliseconds": 6300000.0,
+          "TotalMicroseconds": 6300000000.0,
+          "TotalNanoseconds": 6300000000000.0,
+          "TotalMinutes": 105.0,
+          "TotalSeconds": 6300.0
+        },
+        "CimType": 13,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureUpdateCatchupInterval",
+        "Value": 1,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SignatureUpdateInterval",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "SubmitSamplesConsent",
+        "Value": 1,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ThreatIDDefaultAction_Actions",
+        "Value": [
+          6
+        ],
+        "CimType": 18,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ThreatIDDefaultAction_Ids",
+        "Value": [
+          311954
+        ],
+        "CimType": 25,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "ThrottleForScheduledScanOnly",
+        "Value": true,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "TrustLabelProtectionStatus",
+        "Value": 0,
+        "CimType": 6,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "UILockdown",
+        "Value": false,
+        "CimType": 1,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      },
+      {
+        "Name": "UnknownThreatDefaultAction",
+        "Value": 0,
+        "CimType": 2,
+        "Flags": "Property, NotModified",
+        "IsValueModified": false
+      }
+    ],
+    "CimSystemProperties": {
+      "Namespace": "root/Microsoft/Windows/Defender",
+      "ServerName": "DESKTOP-MSI",
+      "ClassName": "MSFT_MpPreference",
+      "Path": null
+    },
+    "PSComputerName": "localhost",
+    "RunspaceId": "04485c7f-c3cd-43ee-a137-df32861e8d9e",
+    "PSShowComputerName": false,
+    "AllowDatagramProcessingOnWinServer": false,
+    "AllowNetworkProtectionDownLevel": false,
+    "AllowNetworkProtectionOnWinServer": false,
+    "AllowSwitchToAsyncInspection": true,
+    "ApplyDisableNetworkScanningToIOAV": false,
+    "AttackSurfaceReductionOnlyExclusions": null,
+    "AttackSurfaceReductionRules_Actions": null,
+    "AttackSurfaceReductionRules_Ids": null,
+    "AttackSurfaceReductionRules_RuleSpecificExclusions": null,
+    "AttackSurfaceReductionRules_RuleSpecificExclusions_Id": null,
+    "BruteForceProtectionAggressiveness": 0,
+    "BruteForceProtectionConfiguredState": 0,
+    "BruteForceProtectionExclusions": null,
+    "BruteForceProtectionLocalNetworkBlocking": false,
+    "BruteForceProtectionMaxBlockTime": 0,
+    "BruteForceProtectionSkipLearningPeriod": false,
+    "CheckForSignaturesBeforeRunningScan": false,
+    "CloudBlockLevel": 0,
+    "CloudExtendedTimeout": 0,
+    "ComputerID": "A10B32CB-0370-4FB0-B5F6-6562C1488A2C",
+    "ControlledFolderAccessAllowedApplications": [
+      "C:\\Program Files (x86)\\EaseUS\\EaseUS Todo PCTrans\\bin\\PCTrans.exe",
+      "C:\\Program Files (x86)\\EaseUS\\EaseUS Todo PCTrans\\fileshare\\DataChannelUI.exe",
+      "C:\\Program Files (x86)\\Microsoft\\Edge Dev\\Application\\msedge.exe",
+      "C:\\Program Files\\EaseUS\\EaseUS AppMove\\bin\\AppMove.exe",
+      "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe",
+      "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\Feedback.exe",
+      "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\RescueCenter.exe",
+      "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\ServicesOptimizer.exe",
+      "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\UpdateInstaller.exe",
+      "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer\\WebUpdate.exe",
+      "CodeCoverage.exe",
+      "conhost.exe",
+      "datacollector.exe",
+      "devenv.exe",
+      "dotnet.exe",
+      "iisexpress.exe",
+      "IntelliTrace.exe",
+      "Lepton.exe",
+      "Microsoft.VisualStudio.Web.Host.exe",
+      "msbuild.exe",
+      "node.exe",
+      "node.js",
+      "perfwatson2.exe",
+      "ScriptedSandbox64.exe",
+      "ServiceHub.DataWarehouseHost.exe",
+      "ServiceHub.Host.CLR.x64.exe",
+      "ServiceHub.Host.CLR.x86.exe",
+      "ServiceHub.Host.Node.x64.exe",
+      "ServiceHub.Host.Node.x86.exe",
+      "ServiceHub.IdentityHost.exe",
+      "ServiceHub.RoslynCodeAnalysisService.exe",
+      "ServiceHub.SettingsHost.exe",
+      "ServiceHub.VSDetouredHost.exe",
+      "testhost.exe",
+      "vbcscompiler.exe",
+      "vstest.console.exe"
+    ],
+    "ControlledFolderAccessDefaultProtectedFolders": [
+      "N/A: Controlled Folder Access is disabled"
+    ],
+    "ControlledFolderAccessProtectedFolders": null,
+    "DefinitionUpdatesChannel": 0,
+    "DisableArchiveScanning": false,
+    "DisableAutoExclusions": false,
+    "DisableBehaviorMonitoring": false,
+    "DisableBlockAtFirstSeen": false,
+    "DisableCacheMaintenance": false,
+    "DisableCatchupFullScan": true,
+    "DisableCatchupQuickScan": true,
+    "DisableCoreServiceECSIntegration": false,
+    "DisableCoreServiceTelemetry": false,
+    "DisableCpuThrottleOnIdleScans": true,
+    "DisableDatagramProcessing": false,
+    "DisableDnsOverTcpParsing": false,
+    "DisableDnsParsing": false,
+    "DisableEmailScanning": true,
+    "DisableFtpParsing": false,
+    "DisableGradualRelease": false,
+    "DisableHttpParsing": false,
+    "DisableInboundConnectionFiltering": false,
+    "DisableIOAVProtection": false,
+    "DisableNetworkProtectionPerfTelemetry": false,
+    "DisablePrivacyMode": false,
+    "DisableQuicParsing": true,
+    "DisableRdpParsing": false,
+    "DisableRealtimeMonitoring": false,
+    "DisableRemovableDriveScanning": true,
+    "DisableRestorePoint": true,
+    "DisableScanningMappedNetworkDrivesForFullScan": true,
+    "DisableScanningNetworkFiles": false,
+    "DisableScriptScanning": false,
+    "DisableSmtpParsing": false,
+    "DisableSshParsing": false,
+    "DisableTamperProtection": false,
+    "DisableTlsParsing": false,
+    "EnableControlledFolderAccess": 0,
+    "EnableConvertWarnToBlock": false,
+    "EnableDnsSinkhole": true,
+    "EnableFileHashComputation": false,
+    "EnableFullScanOnBatteryPower": false,
+    "EnableLowCpuPriority": false,
+    "EnableNetworkProtection": 0,
+    "EnableUdpReceiveOffload": false,
+    "EnableUdpSegmentationOffload": false,
+    "EngineUpdatesChannel": 0,
+    "ExclusionExtension": null,
+    "ExclusionIpAddress": null,
+    "ExclusionPath": [
+      "C:\\Program Files (x86)\\Microsoft SDKs",
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio",
+      "C:\\Program Files (x86)\\MSBuild",
+      "C:\\Program Files\\Lepton\\",
+      "C:\\Program Files\\PowerShell",
+      "C:\\Program Files\\PowerShell*",
+      "C:\\Program Files\\PowerShell\\7",
+      "C:\\Program Files\\PowerShell\\7-preview",
+      "C:\\Program Files\\Smart PC Utilities\\PC Services Optimizer",
+      "C:\\Program Files\\ZKTool\\UninstallZKTool.exe",
+      "C:\\Program Files\\ZKTool\\ZKTool.exe",
+      "C:\\ProgramData\\Microsoft\\VisualStudio\\Packages",
+      "C:\\Users\\jimmy\\AppData\\Local\\Microsoft\\VisualStudio",
+      "C:\\Users\\jimmy\\AppData\\Local\\Programs\\oh-my-posh\\bin\\oh-my-posh.exe",
+      "C:\\Users\\jimmy\\Dev",
+      "C:\\Windows\\assembly",
+      "C:\\Windows\\Microsoft.NET",
+      "C:\\Windows\\Microsoft.NET\\Framework",
+      "G:",
+      "J:"
+    ],
+    "ExclusionProcess": [
+      "CodeCoverage.exe",
+      "conhost.exe",
+      "datacollector.exe",
+      "devenv.exe",
+      "dotnet.exe",
+      "iisexpress.exe",
+      "IntelliTrace.exe",
+      "Lepton.exe",
+      "Microsoft.VisualStudio.Web.Host.exe",
+      "msbuild.exe",
+      "node.exe",
+      "node.js",
+      "perfwatson2.exe",
+      "ScriptedSandbox64.exe",
+      "ServiceHub.DataWarehouseHost.exe",
+      "ServiceHub.Host.CLR.x64.exe",
+      "ServiceHub.Host.CLR.x86.exe",
+      "ServiceHub.Host.Node.x64.exe",
+      "ServiceHub.Host.Node.x86.exe",
+      "ServiceHub.IdentityHost.exe",
+      "ServiceHub.RoslynCodeAnalysisService.exe",
+      "ServiceHub.SettingsHost.exe",
+      "ServiceHub.VSDetouredHost.exe",
+      "testhost.exe",
+      "vbcscompiler.exe",
+      "vstest.console.exe"
+    ],
+    "ForceUseProxyOnly": false,
+    "HideExclusionsFromLocalUsers": true,
+    "HighThreatDefaultAction": 0,
+    "IntelTDTEnabled": null,
+    "LowThreatDefaultAction": 0,
+    "MAPSReporting": 2,
+    "MeteredConnectionUpdates": false,
+    "ModerateThreatDefaultAction": 0,
+    "NetworkProtectionReputationMode": 0,
+    "OobeEnableRtpAndSigUpdate": false,
+    "PerformanceModeStatus": 1,
+    "PlatformUpdatesChannel": 0,
+    "ProxyBypass": null,
+    "ProxyPacUrl": "",
+    "ProxyServer": "",
+    "PUAProtection": 1,
+    "QuarantinePurgeItemsAfterDelay": 90,
+    "QuickScanIncludeExclusions": 0,
+    "RandomizeScheduleTaskTimes": true,
+    "RealTimeScanDirection": 0,
+    "RemediationScheduleDay": 0,
+    "RemediationScheduleTime": {
+      "Ticks": 72000000000,
+      "Days": 0,
+      "Hours": 2,
+      "Milliseconds": 0,
+      "Microseconds": 0,
+      "Nanoseconds": 0,
+      "Minutes": 0,
+      "Seconds": 0,
+      "TotalDays": 0.08333333333333333,
+      "TotalHours": 2.0,
+      "TotalMilliseconds": 7200000.0,
+      "TotalMicroseconds": 7200000000.0,
+      "TotalNanoseconds": 7200000000000.0,
+      "TotalMinutes": 120.0,
+      "TotalSeconds": 7200.0
+    },
+    "RemoteEncryptionProtectionAggressiveness": 0,
+    "RemoteEncryptionProtectionConfiguredState": 0,
+    "RemoteEncryptionProtectionExclusions": null,
+    "RemoteEncryptionProtectionMaxBlockTime": 0,
+    "RemoveScanningThreadPoolCap": false,
+    "ReportDynamicSignatureDroppedEvent": false,
+    "ReportingAdditionalActionTimeOut": 10080,
+    "ReportingCriticalFailureTimeOut": 10080,
+    "ReportingNonCriticalTimeOut": 1440,
+    "ScanAvgCPULoadFactor": 50,
+    "ScanOnlyIfIdleEnabled": true,
+    "ScanParameters": 1,
+    "ScanPurgeItemsAfterDelay": 15,
+    "ScanScheduleDay": 0,
+    "ScanScheduleOffset": 120,
+    "ScanScheduleQuickScanTime": {
+      "Ticks": 0,
+      "Days": 0,
+      "Hours": 0,
+      "Milliseconds": 0,
+      "Microseconds": 0,
+      "Nanoseconds": 0,
+      "Minutes": 0,
+      "Seconds": 0,
+      "TotalDays": 0.0,
+      "TotalHours": 0.0,
+      "TotalMilliseconds": 0.0,
+      "TotalMicroseconds": 0.0,
+      "TotalNanoseconds": 0.0,
+      "TotalMinutes": 0.0,
+      "TotalSeconds": 0.0
+    },
+    "ScanScheduleTime": {
+      "Ticks": 72000000000,
+      "Days": 0,
+      "Hours": 2,
+      "Milliseconds": 0,
+      "Microseconds": 0,
+      "Nanoseconds": 0,
+      "Minutes": 0,
+      "Seconds": 0,
+      "TotalDays": 0.08333333333333333,
+      "TotalHours": 2.0,
+      "TotalMilliseconds": 7200000.0,
+      "TotalMicroseconds": 7200000000.0,
+      "TotalNanoseconds": 7200000000000.0,
+      "TotalMinutes": 120.0,
+      "TotalSeconds": 7200.0
+    },
+    "SchedulerRandomizationTime": 4,
+    "ServiceHealthReportInterval": 60,
+    "SevereThreatDefaultAction": 0,
+    "SharedSignaturesPath": "",
+    "SharedSignaturesPathUpdateAtScheduledTimeOnly": false,
+    "SignatureAuGracePeriod": 0,
+    "SignatureBlobFileSharesSources": "",
+    "SignatureBlobUpdateInterval": 60,
+    "SignatureDefinitionUpdateFileSharesSources": "",
+    "SignatureDisableUpdateOnStartupWithoutEngine": false,
+    "SignatureFallbackOrder": "MicrosoftUpdateServer|MMPC",
+    "SignatureFirstAuGracePeriod": 120,
+    "SignatureScheduleDay": 8,
+    "SignatureScheduleTime": {
+      "Ticks": 63000000000,
+      "Days": 0,
+      "Hours": 1,
+      "Milliseconds": 0,
+      "Microseconds": 0,
+      "Nanoseconds": 0,
+      "Minutes": 45,
+      "Seconds": 0,
+      "TotalDays": 0.07291666666666667,
+      "TotalHours": 1.75,
+      "TotalMilliseconds": 6300000.0,
+      "TotalMicroseconds": 6300000000.0,
+      "TotalNanoseconds": 6300000000000.0,
+      "TotalMinutes": 105.0,
+      "TotalSeconds": 6300.0
+    },
+    "SignatureUpdateCatchupInterval": 1,
+    "SignatureUpdateInterval": 0,
+    "SubmitSamplesConsent": 1,
+    "ThreatIDDefaultAction_Actions": [
+      6
+    ],
+    "ThreatIDDefaultAction_Ids": [
+      311954
+    ],
+    "ThrottleForScheduledScanOnly": true,
+    "TrustLabelProtectionStatus": 0,
+    "UILockdown": false,
+    "UnknownThreatDefaultAction": 0
+  },
+  "ScanRunning": true,
+  "ScanType": "Full Scan (estimated)",
+  "OptimizationSuggestions": [
+    "Windows Defender is currently using high CPU (839.75%). Consider:",
+    "  - Scheduling scans during off-hours with: Set-MpPreference -ScanScheduleTime 02:00:00",
+    "  - Adding exclusions for development folders with: Add-MpPreference -ExclusionPath 'C:\\DevProjects'",
+    "Current scan schedule: 0 at 02:00:00"
+  ],
+  "Timestamp": "2025-05-21 22:10:36"
+}

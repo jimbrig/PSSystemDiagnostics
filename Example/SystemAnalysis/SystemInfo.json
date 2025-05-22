@@ -1,0 +1,87 @@
+{
+  "ComputerSystem": {
+    "Manufacturer": "Micro-Star International Co., Ltd.",
+    "Model": "GE66 Raider 10SFS",
+    "TotalPhysicalMemory": 34159067136,
+    "NumberOfLogicalProcessors": 12,
+    "NumberOfProcessors": 1
+  },
+  "OperatingSystem": {
+    "Caption": "Microsoft Windows 11 Pro Insider Preview",
+    "Version": "10.0.27858",
+    "BuildNumber": "27858",
+    "OSArchitecture": "64-bit",
+    "LastBootUpTime": "2025-05-21T21:21:42.5-04:00"
+  },
+  "Memory": {
+    "AvailableRAM_MB": 9.47,
+    "PercentUsed": 99.97,
+    "UsedRAM_GB": 31.8,
+    "TotalRAM_GB": 31.81
+  },
+  "CPU": {
+    "Name": "Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz",
+    "MaxClockSpeed": 2592,
+    "CurrentClockSpeed": 2592,
+    "LoadPercentage": 10
+  },
+  "Disk": [
+    {
+      "DeviceID": "C:",
+      "Size(GB)": 899.66,
+      "FreeSpace(GB)": 131.94,
+      "UsedSpace(GB)": 767.72,
+      "PercentUsed": 85.33
+    },
+    {
+      "DeviceID": "D:",
+      "Size(GB)": 52.81,
+      "FreeSpace(GB)": 41.5,
+      "UsedSpace(GB)": 11.31,
+      "PercentUsed": 21.41
+    },
+    {
+      "DeviceID": "E:",
+      "Size(GB)": 1123.51,
+      "FreeSpace(GB)": 694.2,
+      "UsedSpace(GB)": 429.31,
+      "PercentUsed": 38.21
+    },
+    {
+      "DeviceID": "F:",
+      "Size(GB)": 50.0,
+      "FreeSpace(GB)": 46.6,
+      "UsedSpace(GB)": 3.4,
+      "PercentUsed": 6.79
+    },
+    {
+      "DeviceID": "G:",
+      "Size(GB)": 899.66,
+      "FreeSpace(GB)": 125.34,
+      "UsedSpace(GB)": 774.32,
+      "PercentUsed": 86.07
+    },
+    {
+      "DeviceID": "J:",
+      "Size(GB)": 899.66,
+      "FreeSpace(GB)": 125.34,
+      "UsedSpace(GB)": 774.32,
+      "PercentUsed": 86.07
+    },
+    {
+      "DeviceID": "N:",
+      "Size(GB)": 50.0,
+      "FreeSpace(GB)": 30.74,
+      "UsedSpace(GB)": 19.26,
+      "PercentUsed": 38.52
+    },
+    {
+      "DeviceID": "X:",
+      "Size(GB)": 689.25,
+      "FreeSpace(GB)": 667.19,
+      "UsedSpace(GB)": 22.06,
+      "PercentUsed": 3.2
+    }
+  ],
+  "Timestamp": "2025-05-21 22:10:35"
+}

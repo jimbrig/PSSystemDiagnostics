@@ -1,0 +1,23 @@
+{
+  "IndexerRunning": true,
+  "Process": {
+    "Id": 28620,
+    "ProcessName": "SearchIndexer",
+    "CPU": 44.21875,
+    "Memory(MB)": 65.5,
+    "StartTime": "2025-05-21T22:08:48.6914736-04:00"
+  },
+  "Service": {
+    "Name": "WSearch",
+    "DisplayName": "Windows Search",
+    "Status": 4,
+    "StartType": 2
+  },
+  "IndexingStatus": {
+    "IndexedLocations": "Use Control Panel > Indexing Options to view indexed locations",
+    "ServiceStatus": 4,
+    "ServiceStartType": 2
+  },
+  "OptimizationSuggestions": [],
+  "Timestamp": "2025-05-21 22:10:36"
+}
