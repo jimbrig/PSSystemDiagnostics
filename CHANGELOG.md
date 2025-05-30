@@ -6,6 +6,12 @@
 
 ## [Unreleased]
 
+## Documentation
+
+- Reorganize badges in README.md ([684c237](https://github.com/jimbrig/PSSystemDiagnostics/commit/684c2373002344ffbdc7f0f6089a31164a5b7b70))  - (Jimmy Briggs)
+
+## [0.1.0](https://github.com/jimbrig/PSSystemDiagnostics/tree/v0.1.0)- (2025-05-30)
+
 ## Bug Fixes
 
 - Path to import module in AnalyzeSystem.ps1 ([8411775](https://github.com/jimbrig/PSSystemDiagnostics/commit/84117757bd623c84e3599625bdbf47510381bc7e))  - (Jimmy Briggs)
