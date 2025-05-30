@@ -1,0 +1,14 @@
+name: Build Module
+on: [push, pull_request, workflow_dispatch]
+jobs:
+    build:
+      name: Build Module
+      runs-on: windows-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+        - name: Build
+          shell: pwsh
+          run: |
+            $result = Start-Job { ./build.ps1 -Task Build -Bootstrap } | Receive-Job -Wait
+            Write-Output $result
