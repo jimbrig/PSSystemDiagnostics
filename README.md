@@ -1,15 +1,26 @@
 # PSSystemDiagnostics
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jimbrig/PSSystemDiagnostics)
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/PSSystemDiagnostics.svg)](https://www.powershellgallery.com/packages/PSSystemDiagnostics)
-[![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/PSSystemDiagnostics.svg)](https://www.powershellgallery.com/packages/PSSystemDiagnostics)
-
 > [!NOTE]
 > *See the [Examples](./Examples/) folder for the resulting diagnostics reports generated!*
 
 Perform comprehensive system diagnostics reporting tasks for Windows systems using PowerShell.
 
 ![image](https://github.com/user-attachments/assets/48f917ac-e41d-474e-9da6-d7fc6e087953)
+
+## Badges
+
+<!-- Badges:Start -->
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jimbrig/PSSystemDiagnostics)
+![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSSystemDiagnostics?label=PSGallery&color=%23388bfd)
+![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/PSSystemDiagnostics?style=flat&label=Downloads&color=%23388bfd)
+
+
+[![Publish Module](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/publish.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/publish.yml)
+[![Automate Changelog](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/changelog.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/changelog.yml)
+[![Build Module](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/build.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/build.yml)
+[![Pester Tests](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/pester.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/pester.yml)
+[![Dependabot Updates](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/dependabot/dependabot-updates)
+<!-- Badges:End -->
 
 ## Overview
 
