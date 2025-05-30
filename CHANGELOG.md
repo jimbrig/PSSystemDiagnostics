@@ -4,6 +4,12 @@
 [Keep a Changelog](http://keepachangelog.com/) and this project adheres to
 [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+## Documentation
+
+- Add NuGet package badge to README ([090de79](https://github.com/jimbrig/PSSystemDiagnostics/commit/090de79ad3180123aad1c34ef92dedcdd016cdec))  - (Jimmy Briggs)
+
 ## [0.2.0](https://github.com/jimbrig/PSSystemDiagnostics/compare/v0.1.0...v0.2.0)- (2025-05-30)
 
 ## DevOps
