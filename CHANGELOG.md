@@ -6,8 +6,13 @@
 
 ## [Unreleased]
 
+## DevOps
+
+- Rename CI workflow for clarity ([e31a953](https://github.com/jimbrig/PSSystemDiagnostics/commit/e31a953446941657689c086439a71d1dbbdf20df))  - (Jimmy Briggs)
+
 ## Documentation
 
+- Remove unused build status badge from README.md ([23ae8d1](https://github.com/jimbrig/PSSystemDiagnostics/commit/23ae8d1c4f2a8cbb73defe5edacda17f3abf3786))  - (Jimmy Briggs)
 - Add NuGet package badge to README ([090de79](https://github.com/jimbrig/PSSystemDiagnostics/commit/090de79ad3180123aad1c34ef92dedcdd016cdec))  - (Jimmy Briggs)
 
 ## [0.2.0](https://github.com/jimbrig/PSSystemDiagnostics/compare/v0.1.0...v0.2.0)- (2025-05-30)
