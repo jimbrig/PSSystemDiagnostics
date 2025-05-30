@@ -23,8 +23,8 @@ task Analyze -FromModule PowerShellBuild
 task Publish -FromModule PowerShellBuild
 
 Task GenerateYAMLHelp -depends GenerateMarkdown {
-	If (-not (Get-Command New-YamlHelp -CommandType Function -ErrorAction SilentlyContinue)) {
-		Install-Module -name platyPS -Repository PSGallery -Scope CurrentUser -Force
-	}
-	New-YamlHelp -Path './Docs/en-US' -OutputFolder './Docs/en-US' -Force
+    If (-not (Get-Command New-YamlHelp -CommandType Function -ErrorAction SilentlyContinue)) {
+        Install-Module -name platyPS -Repository PSGallery -Scope CurrentUser -Force
+    }
+    New-YamlHelp -Path './Docs/en-US' -OutputFolder './Docs/en-US' -Force
 }

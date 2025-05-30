@@ -1,4 +1,4 @@
-﻿Function Start-NewProcess {
+Function Start-NewProcess {
   Param (
     [string]$FilePath,
     [string]$Arguments
