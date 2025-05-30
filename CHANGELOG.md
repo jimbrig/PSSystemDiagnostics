@@ -24,6 +24,7 @@
 
 ## Documentation
 
+- Remove Get-SourceCode documentation and script ([de55602](https://github.com/jimbrig/PSSystemDiagnostics/commit/de556026983c6a52ad6c7d60003945f6344527a6))  - (Jimmy Briggs)
 - Add documentation and action items for PSSystemDiagnostics ([a1bfad2](https://github.com/jimbrig/PSSystemDiagnostics/commit/a1bfad22e009d234247bf7f2835923d2914ceab7))  - (Jimmy Briggs)
 - Add comprehensive README for PSSystemDiagnostics ([4beeb31](https://github.com/jimbrig/PSSystemDiagnostics/commit/4beeb311c51c23208f330aabca71b004826c3316))  - (Jimmy Briggs)
 - Add detailed software reports ([5ea8b64](https://github.com/jimbrig/PSSystemDiagnostics/commit/5ea8b64f54384c2dd0f8d5912a6418208320d10f))  - (Jimmy Briggs)
