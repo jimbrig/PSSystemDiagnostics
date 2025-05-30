@@ -1,4 +1,4 @@
-name: Publish Module
+name: Publish
 on:
   workflow_dispatch:
   release:
@@ -9,11 +9,11 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Publish
-        id: publish
-        shell: pwsh
-        run: |
-          $apiKey = '${{ secrets.NUGET_API_KEY }}' | ConvertTo-SecureString -AsPlainText -Force
-          $cred = [pscredential]::new('apikey', $apiKey)
-          ./build.ps1 -Task Publish -PSGalleryApiKey $cred -Bootstrap
+        uses: natescherer/publish-powershell-action@v1
+        with:
+          token: ${{ secrets.PS_GALLERY_API_KEY }}
+          target: gallery
+          path: PSSystemDiagnostics

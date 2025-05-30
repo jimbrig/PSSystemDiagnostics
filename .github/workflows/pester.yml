@@ -1,0 +1,39 @@
+name: Pester Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    name: Run Pester Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Pester
+        shell: pwsh
+        run: |
+          Install-Module Pester -Force
+          Import-Module Pester
+
+      - name: Run Tests
+        shell: pwsh
+        run: |
+          $config = New-PesterConfiguration
+          $config.Run.Path = "./Tests"
+          $config.TestResult.Enabled = $true
+          $config.TestResult.OutputFormat = "NUnit2.5"
+
+          $config.TestResult.OutputPath = "test-results.xml"
+          Invoke-Pester -Configuration $config
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pester-test-results
+          path: test-results.xml
