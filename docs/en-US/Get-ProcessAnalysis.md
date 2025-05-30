@@ -1,7 +1,7 @@
 ---
 external help file: PSSystemDiagnostics-help.xml
 Module Name: PSSystemDiagnostics
-online version:
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-computerinfo?view=powershell-7.5&WT.mc_id=ps-gethelp
 schema: 2.0.0
 ---
 

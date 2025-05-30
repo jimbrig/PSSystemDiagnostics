@@ -5,42 +5,48 @@ online version: https://learn.microsoft.com/powershell/module/microsoft.powershe
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Get-MissingDrivers
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Identifies devices with missing or problematic drivers.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Get-MissingDrivers [-IncludeVGABasic] [-ProgressAction <ActionPreference>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+This function scans the system for devices that have driver issues,
+including missing drivers, corrupted drivers, or configuration problems.
 
 ## EXAMPLES
 
-### Example 1
-```powershell
-PS C:\> {{ Add example code here }}
+### EXAMPLE 1
+```
+Get-MissingDrivers
+Identifies all devices with driver problems.
 ```
 
-{{ Add example description here }}
+### EXAMPLE 2
+```
+Get-MissingDrivers -IncludeVGABasic
+Identifies driver problems including basic VGA devices.
+```
 
 ## PARAMETERS
 
-### -OutputPath
-{{ Fill OutputPath Description }}
+### -IncludeVGABasic
+If specified, includes basic VGA devices in the results.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 0
-Default value: None
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -65,11 +71,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
+### None. This function does not accept pipeline input.
 ## OUTPUTS
 
-### System.Object
+### System.Collections.Generic.List[PSCustomObject]
+### Returns a list of custom objects representing devices with driver problems.
 ## NOTES
+This function uses WMI to query device information and may require administrator privileges.
+Error codes are translated to human-readable descriptions.
 
 ## RELATED LINKS

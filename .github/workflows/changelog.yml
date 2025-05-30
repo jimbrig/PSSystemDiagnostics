@@ -1,0 +1,26 @@
+name: Changelog
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  changelog:
+    name: Generate Changelog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate
+        uses: orhun/git-cliff-action@v4
+        id: git-cliff
+        with:
+          config: ./.github/cliff.toml
+          args: --verbose
+        env:
+          OUTPUT: ./CHANGELOG.md
+      - name: Print the changelog
+        run: cat "${{ steps.git-cliff.outputs.changelog }}"
+      - name: Commit and Push Changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

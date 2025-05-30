@@ -5,45 +5,30 @@ online version: https://learn.microsoft.com/powershell/module/microsoft.powershe
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Get-DotNetAccelerators
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Gets the .NET type accelerators.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Get-DotNetAccelerators [-ProgressAction <ActionPreference>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Gets the .NET type accelerators.
 
 ## EXAMPLES
 
-### Example 1
-```powershell
-PS C:\> {{ Add example code here }}
+### EXAMPLE 1
+```
+Get-DotNetAccelerators
 ```
 
-{{ Add example description here }}
+Gets the .NET type accelerators.
 
 ## PARAMETERS
-
-### -OutputPath
-{{ Fill OutputPath Description }}
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -ProgressAction
 {{ Fill ProgressAction Description }}
@@ -66,10 +51,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
-
 ## OUTPUTS
 
-### System.Object
+### System.Management.Automation.PSObject
 ## NOTES
+Author: Jimmy Briggs \<jimmy.briggs@jimbrig.com\>
 
 ## RELATED LINKS

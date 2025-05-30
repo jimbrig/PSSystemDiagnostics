@@ -1,37 +1,49 @@
 ---
 external help file: PSSystemDiagnostics-help.xml
 Module Name: PSSystemDiagnostics
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-computerinfo?view=powershell-7.5&WT.mc_id=ps-gethelp
+online version:
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Invoke-DockerDesktopDiagnostics
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Invokes the Docker Desktop Self-Diagnose Tool.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Invoke-DockerDesktopDiagnostics [[-Action] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Docker Desktop contains a self-diagnose tool which can help you identify some common problems.
+This function invokes the self-diagnose tool performing the check and generating a report.
 
 ## EXAMPLES
 
-### Example 1
-```powershell
-PS C:\> {{ Add example code here }}
+### EXAMPLE 1
+```
+Invoke-DockerDesktopDiagnostics
 ```
 
-{{ Add example description here }}
+### EXAMPLE 2
+```
+Invoke-DockerDesktopDiagnostics -Action check
+```
 
 ## PARAMETERS
 
-### -OutputPath
-{{ Fill OutputPath Description }}
+### -Action
+The action to perform.
+The default is 'check'.
+The available actions are:
+- check
+- login
+- gather
+- upload
+- check-hypervisor
+- detect-host-hypervisor
 
 ```yaml
 Type: String
@@ -39,8 +51,8 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 0
-Default value: None
+Position: 1
+Default value: Gather
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -65,11 +77,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
 
-### System.Object
+### The output of the Docker Desktop Self-Diagnose Tool.
 ## NOTES
+See https://docs.docker.com/desktop/troubleshoot/overview/#self-diagnose-tool for more information.
 
 ## RELATED LINKS
