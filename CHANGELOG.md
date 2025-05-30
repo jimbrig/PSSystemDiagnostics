@@ -6,9 +6,18 @@
 
 ## [Unreleased]
 
+## DevOps
+
+- Add GitHub Workflow for NuGet package publishing ([f15fdc6](https://github.com/jimbrig/PSSystemDiagnostics/commit/f15fdc63359d4be9bf2f1c7b11e61e183307d42f))  - (Jimmy Briggs)
+
 ## Documentation
 
+- Update badges location in README.md ([defa8b7](https://github.com/jimbrig/PSSystemDiagnostics/commit/defa8b70445ca9daada887d3e8d7d38a574090a8))  - (Jimmy Briggs)
 - Reorganize badges in README.md ([684c237](https://github.com/jimbrig/PSSystemDiagnostics/commit/684c2373002344ffbdc7f0f6089a31164a5b7b70))  - (Jimmy Briggs)
+
+## Styling
+
+- Fix inconsistent indentation in JSON and PS1 files ([515cff5](https://github.com/jimbrig/PSSystemDiagnostics/commit/515cff53b0781f7952011a33bff93236685841e1))  - (Jimmy Briggs)
 
 ## [0.1.0](https://github.com/jimbrig/PSSystemDiagnostics/tree/v0.1.0)- (2025-05-30)
 
