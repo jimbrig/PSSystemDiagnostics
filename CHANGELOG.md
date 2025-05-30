@@ -17,6 +17,7 @@
 
 ## DevOps
 
+- Update publish workflow to use PowerShell script ([f78debe](https://github.com/jimbrig/PSSystemDiagnostics/commit/f78debe72344bb83d74135e38829d9e379d84efd))  - (Jimmy Briggs)
 - Add GitHub Actions for dependency updates and tests ([b429955](https://github.com/jimbrig/PSSystemDiagnostics/commit/b4299559eb3360a453b98f1bc2acf1674df55e89))  - (Jimmy Briggs)
 - Update changelog workflow and remove cliff config ([7a676a9](https://github.com/jimbrig/PSSystemDiagnostics/commit/7a676a92f77f13875f3df7d31d8141140006163e))  - (Jimmy Briggs)
 - Configure GitHub workflows and changelog generation ([8daa5a9](https://github.com/jimbrig/PSSystemDiagnostics/commit/8daa5a9c2ef813d26dad521056c8b8d9918ea96c))  - (Jimmy Briggs)
