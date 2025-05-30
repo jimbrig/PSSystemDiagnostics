@@ -15,6 +15,7 @@ Perform comprehensive system diagnostics reporting tasks for Windows systems usi
 
 <!-- Badges:Start -->
 [![Publish Module](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/publish.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/publish.yml)
+[![Publish GitHub NuGet Package](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/ghpkg.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/ghpkg.yml)
 [![Automate Changelog](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/changelog.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/changelog.yml)
 [![Build Module](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/build.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/build.yml)
 [![Pester Tests](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/pester.yml/badge.svg)](https://github.com/jimbrig/PSSystemDiagnostics/actions/workflows/pester.yml)
