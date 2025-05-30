@@ -1,7 +1,24 @@
 {
-    // See http://go.microsoft.com/fwlink/?LinkId=827846
-    // for the documentation about the extensions.json format
-    "recommendations": [
-        "ms-vscode.PowerShell"
-    ]
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dougfinke.vscode-pester",
+    "pspester.pester-test",
+    "ms-vscode.cpptools",
+    "ms-azuretools.vscode-docker",
+    "DavidAnson.vscode-markdownlint",
+    "github.copilot",
+    "github.copilot-chat",
+    "github.vscode-pull-request-github",
+    "github.remotehub",
+    "tylerleonhardt.vscode-inline-values-powershell",
+    "vin-liberty.powershell-snippets",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode.vscode-websearchforcopilot",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-containers",
+    "dotjoshjohnson.xml",
+    "ms-dotnettools.csharp"
+  ]
 }
