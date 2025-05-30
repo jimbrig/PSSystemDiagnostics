@@ -43,16 +43,41 @@ $ErrorActionPreference = 'Stop'
 
 # Bootstrap dependencies
 if ($Bootstrap.IsPresent) {
-    Get-PackageProvider -Name Nuget -ForceBootstrap | Out-Null
-    Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-    if ((Test-Path -Path ./requirements.psd1)) {
-        if (-not (Get-Module -Name PSDepend -ListAvailable)) {
-            Install-Module -Name PSDepend -Repository PSGallery -Scope CurrentUser -Force
+    Write-Host "Checking build dependencies..." -ForegroundColor Cyan
+
+    # Required modules for the build process
+    $requiredModules = @('psake', 'BuildHelpers', 'PowerShellBuild', 'PSScriptAnalyzer', 'PlatyPS', 'Pester')
+    $missingModules = @()
+
+    foreach ($module in $requiredModules) {
+        if (-not (Get-Module -Name $module -ListAvailable)) {
+            $missingModules += $module
         }
-        Import-Module -Name PSDepend -Verbose:$false
-        Invoke-PSDepend -Path './requirements.psd1' -Install -Import -Force -WarningAction SilentlyContinue
+    }
+
+    if ($missingModules.Count -gt 0) {
+        Write-Host "Installing missing modules: $($missingModules -join ', ')" -ForegroundColor Yellow
+
+        # Use PSResourceGet if available, fallback to Install-Module
+        if (Get-Command Install-PSResource -ErrorAction SilentlyContinue) {
+            foreach ($module in $missingModules) {
+                Install-PSResource -Name $module -Repository PSGallery -Scope CurrentUser -TrustRepository
+            }
+        } else {
+            # Fallback to traditional method
+            Get-PackageProvider -Name Nuget -ForceBootstrap | Out-Null
+            Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+            foreach ($module in $missingModules) {
+                Install-Module -Name $module -Repository PSGallery -Scope CurrentUser -Force
+            }
+        }
     } else {
-        Write-Warning 'No [requirements.psd1] found. Skipping build dependency installation.'
+        Write-Host "All required modules are already installed." -ForegroundColor Green
+    }
+
+    # Import required modules
+    foreach ($module in $requiredModules) {
+        Import-Module -Name $module -Force -Verbose:$false
     }
 }
 

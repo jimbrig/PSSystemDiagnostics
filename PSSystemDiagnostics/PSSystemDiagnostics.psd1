@@ -12,7 +12,7 @@
 RootModule = 'PSSystemDiagnostics.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '0.2.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -86,12 +86,10 @@ Description = 'Perform comprehensive system diagnostics reporting tasks.'
         'Get-MissingDrivers',
         'Get-OptimizationRecommendations',
         'Get-ProcessAnalysis',
-        'Get-RPackages',
         'Get-ScoopPackages',
         'Get-SearchIndexerAnalysis',
         'Get-ServiceAnalysis',
         'Get-SoftwareReport',
-        'Get-SourceCode',
         'Get-StartupAnalysis',
         'Get-StoreApps',
         'Get-SystemComponents',
