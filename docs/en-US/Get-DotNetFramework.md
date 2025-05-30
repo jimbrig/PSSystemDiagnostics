@@ -5,19 +5,19 @@ online version: https://learn.microsoft.com/powershell/module/microsoft.powershe
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Get-DotNetFramework
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+This function will retrieve the list of Framework Installed on the computer.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Get-DotNetFramework [-ProgressAction <ActionPreference>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+This function will retrieve the list of Framework Installed on the computer.
 
 ## EXAMPLES
 
@@ -29,21 +29,6 @@ PS C:\> {{ Add example code here }}
 {{ Add example description here }}
 
 ## PARAMETERS
-
-### -OutputPath
-{{ Fill OutputPath Description }}
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -ProgressAction
 {{ Fill ProgressAction Description }}
@@ -65,11 +50,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
 
-### System.Object
 ## NOTES
 
 ## RELATED LINKS

@@ -5,42 +5,48 @@ online version: https://learn.microsoft.com/powershell/module/microsoft.powershe
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Get-LocalAdministrators
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Retrieves members of the local Administrators group.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Get-LocalAdministrators [-IncludePowerUsers] [-ProgressAction <ActionPreference>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+This function queries the local Administrators group to retrieve all members,
+including both local and domain accounts with administrative privileges.
 
 ## EXAMPLES
 
-### Example 1
-```powershell
-PS C:\> {{ Add example code here }}
+### EXAMPLE 1
+```
+Get-LocalAdministrators
+Retrieves all members of the local Administrators group.
 ```
 
-{{ Add example description here }}
+### EXAMPLE 2
+```
+Get-LocalAdministrators -IncludePowerUsers
+Retrieves members of both Administrators and Power Users groups.
+```
 
 ## PARAMETERS
 
-### -OutputPath
-{{ Fill OutputPath Description }}
+### -IncludePowerUsers
+If specified, also retrieves members of the Power Users group.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 0
-Default value: None
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -65,11 +71,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
+### None. This function does not accept pipeline input.
 ## OUTPUTS
 
-### System.Object
+### System.Collections.Generic.List[PSCustomObject]
+### Returns a list of custom objects representing local administrator accounts.
 ## NOTES
+This function requires appropriate permissions to query local group membership.
+Falls back to net.exe commands if PowerShell cmdlets are not available.
 
 ## RELATED LINKS

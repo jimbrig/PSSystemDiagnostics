@@ -5,42 +5,48 @@ online version: https://learn.microsoft.com/powershell/module/microsoft.powershe
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Get-FirewallInfo
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Retrieves Windows Firewall configuration and rules.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Get-FirewallInfo [-IncludeRules] [-ProgressAction <ActionPreference>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+This function collects Windows Firewall profile settings and firewall rules,
+providing comprehensive firewall configuration information.
 
 ## EXAMPLES
 
-### Example 1
-```powershell
-PS C:\> {{ Add example code here }}
+### EXAMPLE 1
+```
+Get-FirewallInfo
+Retrieves firewall profile information only.
 ```
 
-{{ Add example description here }}
+### EXAMPLE 2
+```
+Get-FirewallInfo -IncludeRules
+Retrieves firewall profiles and all firewall rules.
+```
 
 ## PARAMETERS
 
-### -OutputPath
-{{ Fill OutputPath Description }}
+### -IncludeRules
+If specified, includes detailed firewall rules in addition to profile information.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 0
-Default value: None
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -65,11 +71,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
+### None. This function does not accept pipeline input.
 ## OUTPUTS
 
-### System.Object
+### System.Collections.Hashtable
+### Returns a hashtable containing firewall profiles and optionally rules information.
 ## NOTES
+This function requires administrator privileges to access firewall configuration.
+The NetSecurity PowerShell module must be available on the system.
 
 ## RELATED LINKS

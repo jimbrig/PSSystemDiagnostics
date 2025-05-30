@@ -1,23 +1,28 @@
 ---
 external help file: PSSystemDiagnostics-help.xml
 Module Name: PSSystemDiagnostics
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-computerinfo?view=powershell-7.5&WT.mc_id=ps-gethelp
+online version:
 schema: 2.0.0
 ---
 
-# Get-DefenderAnalysis
+# Update-PSHelp
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Update PowerShell help to the latest version.
 
 ## SYNTAX
 
 ```
-Get-DefenderAnalysis [[-OutputPath] <String>] [-ProgressAction <ActionPreference>] [<CommonParameters>]
+Update-PSHelp [-ProgressAction <ActionPreference>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+This function updates the PowerShell help files for all installed modules to the latest version.
+It uses the \`Update-Help\` cmdlet to download and install the latest help files.
+
+Update Help More Quickly using ThreadJob
+
+Requires -Version 7 -Module ThreadJob
 
 ## EXAMPLES
 
@@ -30,16 +35,32 @@ PS C:\> {{ Add example code here }}
 
 ## PARAMETERS
 
-### -OutputPath
-{{ Fill OutputPath Description }}
+### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: wi
 
 Required: False
-Position: 0
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -65,11 +86,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
 
-### System.Object
+### System.Void
 ## NOTES
 
 ## RELATED LINKS
