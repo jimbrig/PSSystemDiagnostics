@@ -3,5 +3,11 @@
     "files.insertFinalNewline": true,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    "powershell.codeFormatting.preset": "OTBS"
+    "powershell.codeFormatting.preset": "OTBS",
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": [
+            "mkdocs.yml",
+            "file:///n%3A/PSSystemDiagnostics/.github/workflows/mkdocs.yml"
+        ]
+    }
 }
