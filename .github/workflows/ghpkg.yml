@@ -9,7 +9,7 @@ jobs:
     name: GithubPackage
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Publish GitHub Package
         uses: natescherer/publish-powershell-action@v1.1.1
         with:
